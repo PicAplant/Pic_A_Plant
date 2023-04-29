@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            maximum-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+        <title>Pic A Plant Demo Page</title>
+        <script src="https://kit.fontawesome.com/d93af1fc51.js"
+            crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP CORE STYLE  -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONT-AWESOME CORE STYLE  -->
+        <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CORE CUSTOM STYLE  -->
+        <link href="assets/css/custom.css" rel="stylesheet" />
+        <!-- THEME COLOUR STYLE (BY DEFAULT GREEN COLOR,  YOU CAN REPLACE green.css to red.css , orange.css, blue.css ,grey-bk.css or black-bk.css)  -->
+        <link id="mainCSS" href="assets/css/themes/green.css" rel="stylesheet"
+            />
+        <!-- GOOGLE FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Yellowtail'
+            rel='stylesheet' type='text/css' />
+        <link
+            href='http://fonts.googleapis.com/css?family=Signika&subset=latin,latin-ext'
+            rel='stylesheet' type='text/css' />
+        <!-- STYLE SWITCHER STYLE -->
+        <link href="assets/css/style-switcher.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <style>
+            body {
+                background-image: linear-gradient(274deg, rgb(166, 236, 156),rgb(81, 150, 72), rgb(27, 77, 25));
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+                background-repeat: no-repeat;
+
+                
+            }
+
+            #footer {
+                padding: 15px;
+                text-align: right;
+                color: #fff;
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- /. END THEME SWITCHER-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="./index.html">Pic A Plant</a>
+                </div>
+                <div class="navbar-collapse collapse move-me">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./index.html#home-sec">HOME</a></li>
+                        <li><a href="./index.html#dev-sec">DEVELOPERS</a></li>
+                        <li><a href="./index.html#about-sec">ABOUT</a></li>
+                        <li><a href="./index.html#contact-sec">CONTACT</a></li>
+                        <li><a href="./DemoPage.html">DEMO</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- the beging of under the header (navbar) -->
+        <section id="DemoPlay">
+
+            <div id="Dwrap">
+                <h1>Try our demo for free.</h1>
+
+                <div id="Details">
+
+                    <div class="Coll">
+                        <div class="Dcard">
+                            <img src="./assets/img/deep-learning.png" alt="">
+                            <p class="descCard">Powerful deep machine learning
+                                based
+                                on a super processor to provide the most
+                                reliable
+                                and fast answers.</p>
+                        </div>
+
+                        <div class="Dcard">
+                            <img src="./assets/img/cloud-server.png" alt="">
+                            <p class="descCard">Strong backup service,
+                                Smart algorithm to provide data backup and save
+                                quickly.</p>
+                        </div>
+                    </div>
+
+                    <div class="Coll">
+                        <div class="Dcard">
+                            <img src="./assets/img/plant.png" alt="">
+                            <p class="descCard">You can enjoy discovering a
+                                variety
+                                of up to 15,000 different species of plants at
+                                the
+                                click of a button!</p>
+                        </div>
+
+                        <div class="Dcard">
+                            <img src="./assets/img/free.png" alt="">
+                            <p class="descCard">The download is free and always
+                                will
+                                be.
+                                We are currently working on a beta version so
+                                the
+                                rest of the services are free</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+            <div id="UploadingDiv">
+                <p> Upload a photo HERE </p>
+                <input type="file" onchange="GetPhoto(this)"
+                    class="custom-file-input" id="DemoIN">
+            </div>
+
+            <hr id="semi">
+            <div id="ResDiv">
+                <div id="ResWraper">
+                    <div id="userimgPH">
+                        <p>Your Image</p>
+                        <img src="" alt="" id="UserUploadImg">
+                        <button id="idebtn" onclick="Predict()">Identify Now !</button>
+                    </div>
+
+
+                    <div id="Res">
+                        <div id="CardPH">
+                            <!-- <p id="DateIDE">28-04-2023</p> -->
+                            <div id="MetaWrap">
+                                <div class="MetaIDE">
+                                    <p id="Dcalc">Calc Duration: 144ms</p> <img
+                                        src="./assets/img/hourglass.png" class="leafimg"
+                                        alt="">
+    
+                                </div>
+                                <div class="MetaIDE">
+                                    <p id="ProIDEPlant">Is plant probability: 0</p>
+                                    <img src="./assets/img/priority.png"
+                                        class="leafimg" alt="">
+    
+                                </div>
+
+                            </div>
+
+
+                            <div id="RealCardPH">
+                                <!-- example -->
+                                <!-- <div class="cardS">
+                                    <span class="index">1</span>
+                                    <p>Our AI thinks it is <br> <span class="precentSpan">"Sambucus nigra"</span></p>
+                                    <div class="RowImg">
+                                        <img
+                                            src="https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/94c/261b50568bca69859580401c20c66.jpg"
+                                            alt="">
+                                        <img
+                                            src="https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/de6/6e730e3681329ef97196bee5c6e0a.jpg"
+                                            alt="">
+                                    </div>
+
+                                    <span class="precentSpan">11.7% <img class="imgPre" src="./assets/img/0-25.png" alt=""></span>
+    
+                                </div> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <div id="footer">
+            &copy 2023 Pic A Plant | All Rights Reserved | <a
+                href="https://giladmeirson.github.io/Gilad_Meirson_website/"
+                style="font-size: 16px; color:
+                #fff" target="_blank">Design by : Gilad Meirson</a>
+
+        </div>
+        <!-- /FOOTER SECTION END  -->
+
+
+        <script src="./assets/js/Demo.js"></script>
+
+
+        <!-- /SCROLL TO UP SECTION END  -->
+        <!-- JQUERY SCRIPTS FUCTIONS  -->
+        <script src="assets/js/jquery-1.11.1.js"></script>
+        <!-- BOOTSTRAP SCRIPTS FUCTIONS  -->
+        <script src="assets/js/bootstrap.js"></script>
+        <!-- SROLLING SCRIPTS   -->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <!-- STYLE SWITCHER SCRIPTS   -->
+        <script src="assets/js/style-switcher.js"></script>
+        <!-- ON SCROLL SCRIPTS   -->
+        <script src="assets/js/scrollReveal.js"></script>
+        <!-- CUSTOM SCRIPTS   -->
+        <script src="assets/js/custom.js"></script>
+
+
+    </body>
+</html>

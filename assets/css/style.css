@@ -1,0 +1,553 @@
+h1 {
+    padding-top: 50px;
+    font-family: 'Signika';
+    padding-bottom: 20px;
+}
+body {
+    background-image: linear-gradient(274deg, rgb(166, 236, 156),rgb(81, 150, 72), rgb(27, 77, 25));
+}
+
+.navbar-inverse {
+    background-image: linear-gradient(274deg, rgb(166, 236, 156),rgb(81, 150, 72), rgb(27, 77, 25));
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.btn-dwwn {
+    max-height: 50px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: black;
+}
+
+
+.btn-dwwn:hover {
+    max-height: 50px;
+    border: 2px solid #020c04;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #032e04;
+}
+
+#about-sec {
+
+    padding-bottom: 50px;
+    color: white;
+}
+
+.testimonial {
+    border: 1px solid #c7f1dc;
+}
+.icongit {
+    color: #020c04;
+
+    font-size: 25px;
+    margin-inline: 10px;
+}
+
+
+
+
+.testimonial:after {
+    border-top-color: #ffffff;
+}
+
+.testimonial-name {
+    color: #ffffff;
+}
+
+
+
+
+
+/* export */
+
+/* #dev-sec .media .pull-left {
+    width: 130px;
+    padding-right: 10px;
+}
+#team .media {
+    margin-bottom: 20px;
+}
+
+.pull-left {
+    float: left!important;
+} */
+
+/* img {
+    vertical-align: middle;
+}
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#dev-sec .media .media-heading {
+    margin-top: 10px;
+    font-size: 18px;
+}
+#dev-sec .media .pull-left {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+} */
+#dev-sec .media p {
+    font-size: 14px;
+}
+#dev-sec .media p {
+    font-size: 16px;
+    color: #707b82;
+}
+#dev-sec .media p {
+    font-size: 14px;
+}
+#dev-sec .media p {
+    font-size: 16px;
+    color: #707b82;
+}
+#dev-sec .social-link {
+    margin-top: 15px;
+}
+#dev-sec .social-link a {
+    display: inline-block;
+}
+#dev-sec .btn-facebook {
+    background: #6788ce;
+    color: #fff;
+    border-radius: 50%;
+    padding: 9px 14px;
+    font-size: 17px;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+#dev-sec .social-link a {
+    display: inline-block;
+}
+
+#dev-sec .btn-twitter {
+    background: #29c5f6;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 9px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header .app-showcase img {
+      max-width: 100%;
+    }
+    header .block .logo {
+      margin-bottom: 35px;
+    }
+    .download-btn a img {
+      width: 150px;
+    }
+    #service .block h3 {
+      font-size: 22px;
+    }
+    #service .block p {
+      padding: 0;
+      font-size: 15px;
+    }
+    #showcase .block img {
+      max-width: 100%;
+      margin-bottom: 0;
+      padding-bottom: 40px;
+    }
+    #feature {
+      padding: 80px 0;
+    }
+    #dev-sec .media .pull-left {
+      padding-right: 10px;
+    }
+    #dev-sec .media .pull-left {
+      width: 100px;
+      padding-right: 10px;
+    }
+    #dev-sec .media .media-heading {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    #dev-sec .media p {
+      font-size: 14px;
+    }
+  }
+  /*		Mobile Layout: 320px.
+          Gutters: 24px.
+          Outer margins: 34px.
+          Inherits styles from: Default Layout.
+  ---------------------------------------------
+  cols    1     2      3
+  px      68    160    252    */
+  @media only screen and (max-width: 767px) {
+    header {
+      padding: 50px 0;
+    }
+    header .app-showcase img {
+      max-width: 100%;
+    }
+    header .block .logo {
+      margin-bottom: 20px;
+    }
+    header .block p {
+      color: #fff;
+    }
+    .download-btn a img {
+      width: 130px;
+    }
+    #showcase {
+      padding-bottom: 50px;
+    }
+    #showcase .block img {
+      max-width: 100%;
+      margin-bottom: 0;
+    }
+    #feature {
+      padding: 80px 0;
+    }
+    #dev-sec .media {
+      margin-bottom: 20px;
+    }
+    #dev-sec .media .pull-left {
+      width: 130px;
+      padding-right: 10px;
+    }
+    #dev-sec .media .media-heading {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    #dev-sec .media p {
+      font-size: 14px;
+    }
+  }
+  /*		Wide Mobile Layout: 480px.
+          Gutters: 24px.
+          Outer margins: 22px.
+          Inherits styles from: Default Layout, Mobile Layout.
+  ------------------------------------------------------------
+  cols    1     2      3      4      5
+  px      68    160    252    344    436    */
+  /*	Retina media query.
+      Overrides styles for devices with a 
+      device-pixel-ratio of 2+, such as iPhone 4.
+  -----------------------------------------------    */
+
+#dev-sec {
+  padding: 80px 0 90px 0;
+}
+#dev-sec .title {
+  margin-bottom: 50px;
+}
+#dev-sec .social-link {
+  margin-top: 15px;
+}
+#dev-sec .social-link a {
+  display: inline-block;
+}
+#dev-sec .btn-facebook {
+    background: lightcoral;
+    color: #fff;
+    border-radius: 50%;
+    padding: 9px 9px;
+    font-size: 17px;
+    line-height: 1;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#dev-sec img {
+    border-radius: 50%;
+    border:1px darkgreen solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#DemoPlay{
+  text-align: center;
+  margin-top: 64px;
+}
+#titleMain {
+    position: absolute;
+    font-size: 8vw;
+    z-index: 5;
+    top: 20%;
+    left: 24vw;
+    color: #f7f4f0;
+    text-align: center;
+}
+#WrapTime{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#mainsec{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#WrapTime h1 {
+    font-size: 8vw;
+}
+#dev-sec .btn-twitter {
+  background: #0077b5;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px 9px;
+  font-size: 20px;
+  line-height: 1;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+}
+
+#dev-sec .btn-Git {
+    background: #000000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 9px;
+    margin-left: 5px;
+    font-size: 22px;
+    line-height: 1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#dev-sec .media .pull-left {
+  margin-right: 25px;
+}
+#dev-sec .media .media-heading {
+  margin-top: 35px;
+  font-size: 21px;
+}
+#dev-sec .media p {
+  font-size: 16px;
+  color: #707b82;
+}
+
+
+
+
+/* /////////// */
+
+
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select Plant image';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 16pt;
+}
+#ResDiv {
+  display: none;
+  padding-inline: 35px;
+  margin-block: 58px;
+}
+#DateIDE{
+  font-size: 20px;
+}
+.descCard{
+  font-size: 20px;
+  margin-inline: 15px;
+}
+.MetaIDE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.MetaIDE p {
+  font-size: 25px;
+}
+#Dcalc{
+  font-size: 25px;
+
+}
+#DemoIN:focus-visible{
+  border: none;
+}
+.leafimg {
+  width: 50px;
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+#UploadingDiv{
+  margin-top: 62px;
+}
+#UploadingDiv p {
+  font-size: 25px;
+}
+.RowImg img {
+  width: 150px;
+}
+#Details {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+.Dcard img {
+  width: 85px;
+  margin-left: 15px;
+}
+.Dcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-block: 100px;
+  text-align: left;
+}
+#DemoPlay h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#Res {
+  display: none;
+  margin-top: 70px;
+}
+#RealCardPH{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#Dwrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardS{
+  border-radius: 20px;
+  background: rgba(177, 187, 125, 0.5);
+  padding: 10px;
+  border: 2px solid #3F493A;
+  margin-top: 15px;
+  width: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.cardS p {
+  font-size: 14px;
+  margin-top: -38px;
+}
+#userimgPH p{
+  font-size: 18px;
+}
+#about-sec strong {
+  color: #ab872f;
+}
+.index {
+  position: relative;
+  padding: 6px 13px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  background: rgba(177, 187, 125, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin: 0;
+  left: -14.5vw;
+  top: -20px;
+  font-size: 30px;
+}
+.precentSpan {
+  font-size: 24px;
+  /* margin-block: 20px; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.cardS .RowImg img {
+  border-radius: 15px;
+  border: 1px solid #3F493A;
+  margin-inline: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#UserUploadImg {
+  width: 300px;
+  border-radius: 25px;
+  border: 1px solid gold;
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#semi{
+  width: 75%;
+  margin-top: 50px;
+  border: solid #3F493A 1px;
+  opacity: 0.5;
+
+}
+#ResWraper {
+  display: flex;
+  flex-direction: column;
+}
+
+#userimgPH button {
+  color: #ffe03c;
+  background-image: linear-gradient(276deg, rgb(99 143 93),rgb(81, 150, 72), rgb(27, 77, 25));
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-inline: 50px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#userimgPH button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(276deg, rgb(226, 197, 115),rgb(221, 177, 56), rgb(163, 133, 34));
+  color: #000000;
+
+
+}
+
+
+#userimgPH{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+
+input[type="file"] {
+  display: block;
+  display: inline-flex;
+  text-align-last: center;
+  border-radius: 5px;
+}
