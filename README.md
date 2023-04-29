@@ -12,4 +12,5 @@ You can contact us on the website under the contact tab.
 All rights reserved to cgroup41
 ------------------------------------------------------------------------------------------
 The site was built and designed by Gilad Meirson, any copying will be an offence.
-------------------------------------------------------------------------------------------![icon_title](https://user-images.githubusercontent.com/130896686/235297174-6b5f2cc1-b137-4dad-9d77-3ea8ace0cc63.png)
+------------------------------------------------------------------------------------------
+![icon_title](https://user-images.githubusercontent.com/130896686/235297174-6b5f2cc1-b137-4dad-9d77-3ea8ace0cc63.png)
