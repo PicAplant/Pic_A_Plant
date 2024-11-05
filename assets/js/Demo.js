@@ -29,10 +29,10 @@ function GetPhoto(fileInput) {
     //console.log(Base64Code);
     var imgArr = [];
     imgArr.push(document.getElementById('UserUploadImg').src);
-    //const apiKeyCGroup41='kip0Z1E82eAOoH35RroCeUJIGoMKGMitMehj1NahjUAUgCdYCk'
-    const apiKeyGilad='dMF9bxaLq8dcblg5CE5kGqgFKlJ63VYPF3cKD24u9p9KOenUxU' //14 remining 29/04/23
+    const apiKeyCGroup41='kip0Z1E82eAOoH35RroCeUJIGoMKGMitMehj1NahjUAUgCdYCk'
+    //const apiKeyGilad='dMF9bxaLq8dcblg5CE5kGqgFKlJ63VYPF3cKD24u9p9KOenUxU' //14 remining 29/04/23  // 0 remaining 05/11/24
     const data = {
-      api_key: apiKeyGilad,
+      api_key: apiKeyCGroup41,
       images: imgArr,
       /* modifiers docs: https://github.com/flowerchecker/Plant-id-API/wiki/Modifiers */
       modifiers: ["crops_fast", "similar_images"],
